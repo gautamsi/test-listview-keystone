@@ -3,8 +3,7 @@ import React from 'react';
 import { Container } from '@arch-ui/layout';
 import { Title } from '@arch-ui/typography';
 
-const About = ({ ...config }) => {
-  console.log(config.filter({ status: 'asda' }));
+const About = () => {
   return (
     <Container>
       <Title as="h1" margin="both">
